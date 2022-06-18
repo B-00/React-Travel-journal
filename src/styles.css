@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    height: 80px;
+    background-color: #F55A5A;
+    display: flex;
+    margin-bottom: 75px;
+}
+
+.nav-img {
+    width: 45px;
+    height: 45px;
+    padding-left: 45%;
+    padding-top: 0.9%;
+}
+
+.title {
+    font-size: 26px;
+    color: white;
+    padding-left: 1%;
+    padding-top: 1.15%;
+}
+
+.card {
+    padding-left: 400px;
+    min-width: 500px;
+    display: flex;
+}
+
+.card-img {
+    width: 312px;
+    height: 420px;
+    border-radius: 5px;
+    margin-bottom: 50px; 
+}
+
+.card-loc-info {
+    display: flex;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 50px;
+}
+
+.card-pin {
+    width: 18px;
+    height: 24px;
+}
+
+.card-location, .card-google-link {
+    font-size: 20px;
+    padding-top: 4px;
+}
+
+.card-location {
+    padding-left: 10px;
+    letter-spacing: 0.4em;
+}
+
+.card-google-link {
+    height: 0;
+    padding-left: 25px;
+}
+
+.card-google-link:visited {
+    color: grey;
+}
+
+.card-info {
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.card-title {
+    padding-bottom: 30px;
+}
+
+.card-date {
+    padding-bottom: 20px;
+}
